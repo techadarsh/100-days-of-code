@@ -6,9 +6,10 @@ FONT = ("Arial", 24, "normal")
 
 class ScoreBoard(Turtle):
 
-    def __init__(self):
+    def __init__(self,user_name):
         super().__init__()
         self.score = 0
+        self.username = user_name
         self.color("white")
         self.penup()
         self.speed("fastest")
@@ -18,7 +19,7 @@ class ScoreBoard(Turtle):
 
     def update_scoreboard(self):
         self.clear()
-        self.write(f"Score: {self.score}", align=ALIGNMENT, font=FONT)
+        self.write(f"{str(self.username)}! Score: {self.score}", align=ALIGNMENT, font=FONT)
 
     def increase_score(self):
         self.score += 1
@@ -27,6 +28,6 @@ class ScoreBoard(Turtle):
     def game_over(self):
         self.clear()
         self.goto(0, 0)
-        self.write(arg="Your Final Score: " + str(self.score), align=ALIGNMENT, font=FONT)
+        self.write(arg=str(self.username) + "Your Final Score: " + str(self.score), align=ALIGNMENT, font=FONT)
         self.goto(0, 50)
         self.write(arg="GAME OVER", align=ALIGNMENT, font=FONT)

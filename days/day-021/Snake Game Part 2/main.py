@@ -6,13 +6,14 @@ from scoreboard import ScoreBoard
 import time
 
 screen = Screen()
+user_name = screen.textinput(title="Enter your name", prompt="Please enter your name to start the game: ")
 screen.setup(width=600, height=600)
 screen.bgcolor("black")
 screen.title("Snake Game")
 
 snake = Snake()
 food = Food()
-score = ScoreBoard()
+score = ScoreBoard(user_name)
 
 screen.listen()
 screen.onkey(snake.up ,"Up")
