@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1507b80c-a27b-4102-9e1b-32621dd2b0fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/days/day-022/Pong Game: The Famous Arcade Game/ball.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/days/day-022/Pong Game: The Famous Arcade Game/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/days/day-022/Pong Game: The Famous Arcade Game/paddle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/days/day-022/Pong Game: The Famous Arcade Game/scoreboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/day_023.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +48,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.main.executor": "Run",
     "Python.paddle.executor": "Run",
+    "Python.player.executor": "Run",
     "Python.snake.executor": "Run",
     "Python.task.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
@@ -74,6 +72,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/days/day-023/The Turtle Crossing Capstone Project" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -92,7 +95,7 @@
       <workItem from="1771322398144" duration="320000" />
       <workItem from="1771329333628" duration="22000" />
       <workItem from="1772019976217" duration="33000" />
-      <workItem from="1772272434155" duration="34623000" />
+      <workItem from="1772272434155" duration="39588000" />
     </task>
     <servers />
   </component>
@@ -100,10 +103,11 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/100_days_of_code$main.coverage" NAME="main Coverage Results" MODIFIED="1772560462809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/days/day-022/Pong Game: The Famous Arcade Game" />
+    <SUITE FILE_PATH="coverage/100_days_of_code$main.coverage" NAME="main Coverage Results" MODIFIED="1772565557726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/days/day-023/The Turtle Crossing Capstone Project" />
     <SUITE FILE_PATH="coverage/100_days_of_code$paddle.coverage" NAME="paddle Coverage Results" MODIFIED="1772559414081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/days/day-022/Pong Game: The Famous Arcade Game" />
     <SUITE FILE_PATH="coverage/100_days_of_code$snake.coverage" NAME="snake Coverage Results" MODIFIED="1772314170570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/days/day-021/Snake Game Part 2" />
     <SUITE FILE_PATH="coverage/100_days_of_code$task.coverage" NAME="task Coverage Results" MODIFIED="1772315834614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/days/day-021/Snake Game Part 2" />
+    <SUITE FILE_PATH="coverage/100_days_of_code$player.coverage" NAME="player Coverage Results" MODIFIED="1772564656713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/days/day-023/The Turtle Crossing Capstone Project" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
