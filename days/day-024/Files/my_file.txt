@@ -1,0 +1,7 @@
+Hello My Name is Adarsh !
+I am learning Python Programming Language.
+I am loving it.
+My age is 32 years.
+New text.
+New text.
+New text.
